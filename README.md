@@ -14,6 +14,6 @@ Login to Gmail
 Login to Bitwarden   
 Login to ChatGPT   
 
-gnome-disks &
+gnome-disks &   
 Manually pin to sidebar.
 
