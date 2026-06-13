@@ -8,3 +8,7 @@ Brave > More tools > Sync > View Sync Code
 
 On new machine:   
 Brave > More tools > Sync > I have a Sync Code   
+
+Login to Gmail   
+Login to Bitwarden   
+Login to ChatGPT   
