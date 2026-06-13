@@ -1,3 +1,3 @@
-# dev
-curl -fsS https://dl.brave.com/install.sh | sh;
-brave-browser &;
+# dev   
+curl -fsS https://dl.brave.com/install.sh | sh;   
+brave-browser &;   
