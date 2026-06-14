@@ -25,7 +25,8 @@ gnome-text-editor ~/.ssh/henrik@home.pub ~/.ssh/henrik@home
 Bitwarden > SSH Key > henrik@home > Copy private key > paste into henrik@home   
 Bitwarden > SSH Key > henrik@home > Copy public key > paste into henrik@home.pub   
 
-...
+---
+# nice to have
 gnome-disks &   
 Manually pin to sidebar.   
 
