@@ -29,6 +29,9 @@ Bitwarden > SSH Key > henrik@home > Copy public key > paste into henrik@home.pub
 
 ssh -X gitgoog.local   
 
+
+Connect wifi moog !?      
+
 ---
 
 # nice to have   
