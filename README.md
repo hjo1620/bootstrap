@@ -28,7 +28,9 @@ Bitwarden > SSH Key > henrik@home > Copy private key > paste into henrik@home
 Bitwarden > SSH Key > henrik@home > Copy public key > paste into henrik@home.pub   
 
 ssh -X gitgoog.local   
+
 ---
+
 # nice to have   
 gnome-disks &   
 Manually pin to sidebar.   
