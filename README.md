@@ -1,4 +1,6 @@
 # dev   
+Connect wifi goog
+
 sudo apt install -y curl;   
 curl -fsS https://dl.brave.com/install.sh | sh;   
 brave-browser &   
@@ -14,6 +16,10 @@ Login to Gmail
 Login to Bitwarden   
 Login to ChatGPT   
 
+Bitwarden > SSH Key > henrik@home > Copy private key > $HOME/.ssh/henrik@home
+Bitwarden > SSH Key > henrik@home > Copy public key > $HOME/.ssh/henrik@home.pub
+
+...
 gnome-disks &   
 Manually pin to sidebar.
 
