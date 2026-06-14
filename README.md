@@ -25,6 +25,15 @@ gnome-text-editor ~/.ssh/henrik@home.pub ~/.ssh/henrik@home
 Bitwarden > SSH Key > henrik@home > Copy private key > paste into henrik@home   
 Bitwarden > SSH Key > henrik@home > Copy public key > paste into henrik@home.pub   
 
+ssh -X gitgoog.local
+
+cat >> ~/.ssh/config <<'EOF'
+
+Host myserver
+    HostName gitgoog.local
+    User henrik
+    IdentityFile ~/.ssh/henrik@home
+EOF
 ---
 # nice to have
 gnome-disks &   
