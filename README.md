@@ -16,8 +16,15 @@ Login to Gmail
 Login to Bitwarden   
 Login to ChatGPT   
 
-Bitwarden > SSH Key > henrik@home > Copy private key > $HOME/.ssh/henrik@home
-Bitwarden > SSH Key > henrik@home > Copy public key > $HOME/.ssh/henrik@home.pub
+cd;
+cp ~/.ssh/authorized_keys ~/.ssh/henrik@home
+cp ~/.ssh/authorized_keys ~/.ssh/henrik@home.pub
+
+gnome-texteditor ~/.ssh/henrik@home
+gnome-texteditor ~/.ssh/henrik@home.pub
+
+Bitwarden > SSH Key > henrik@home > Copy private key > paste into henrik@home
+Bitwarden > SSH Key > henrik@home > Copy public key > paste into henrik@home.pub
 
 ...
 gnome-disks &   
