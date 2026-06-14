@@ -19,7 +19,8 @@ Login to ChatGPT
 cd;   
 cp ~/.ssh/authorized_keys ~/.ssh/henrik@home   
 cp ~/.ssh/authorized_keys ~/.ssh/henrik@home.pub   
-cp ~/.ssh/authorized_keys ~/.ssh/config 
+cp ~/.ssh/authorized_keys ~/.ssh/config   
+printf '\nHost gitgoog.local\n    HostName gitgoog.local\n    User henrik\n    IdentityFile ~/.ssh/henrik@home\n' >> ~/.ssh/config   
 
 gnome-text-editor ~/.ssh/henrik@home.pub ~/.ssh/henrik@home   
 
@@ -27,11 +28,7 @@ Bitwarden > SSH Key > henrik@home > Copy private key > paste into henrik@home
 Bitwarden > SSH Key > henrik@home > Copy public key > paste into henrik@home.pub   
 
 ssh -X gitgoog.local   
-
-printf '\nHost gitgoog.local\n    HostName gitgoog.local\n    User henrik\n    IdentityFile ~/.ssh/henrik@home\n' >> ~/.ssh/config
-
 ---
-# nice to have
+# nice to have   
 gnome-disks &   
 Manually pin to sidebar.   
-
