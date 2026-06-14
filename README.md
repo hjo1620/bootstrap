@@ -1,7 +1,7 @@
 # dev   
 Connect wifi goog
 
-sudo apt install -y curl;   
+sudo apt install -y curl git;   
 curl -fsS https://dl.brave.com/install.sh | sh;   
 brave-browser &   
 Manually pin to sidebar.
