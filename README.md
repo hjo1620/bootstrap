@@ -29,6 +29,8 @@ Bitwarden > SSH Key > henrik@home > Copy public key > paste into henrik@home.pub
 
 ssh -X gitgoog.local   
 
+Give password for: henrik@gitgoog.local   
+ssh -t henrik@gitgoog.local 'sudo -u git bash -c "cd / && find /home/git/repositories -type d -name \"*.git\""'   
 
 Connect wifi moog !?      
 
