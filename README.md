@@ -32,7 +32,8 @@ ssh -X gitgoog.local
 Give password for: henrik@gitgoog.local   
 ssh -t henrik@gitgoog.local 'sudo -u git bash -c "cd / && find /home/git/repositories -type d -name \"*.git\""'   
 
-git clone git@gitgoog.local:/home/git/repositories/sandbox/example.git
+Get repos you want on client, like so, example:   
+git clone git@gitgoog.local:/home/git/repositories/sandbox/example.git   
 
 Connect wifi moog !?      
 
